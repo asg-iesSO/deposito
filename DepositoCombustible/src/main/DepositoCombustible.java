@@ -1,3 +1,4 @@
+package main;
 /**
  * DepositoCombustible es una clase que representa el depósito de gasolina de un coche
  * Un objeto DepositoCombustible agrupa la información necesaria para describir el estado del depósito:
@@ -29,7 +30,7 @@ public class DepositoCombustible {
 	* @param tankLevel es la cantidad de combustible (medida en litros) que contiene el depósito inicialmente
 	* 
 	*/ 
-	DepositoCombustible(double tankMax, double tankLevel) {
+	public DepositoCombustible(double tankMax, double tankLevel) {
        this.depMax   = tankMax;
        this.depNivel = tankLevel;
     }
